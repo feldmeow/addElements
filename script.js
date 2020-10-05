@@ -25,6 +25,7 @@ function DomElement() {
   };
 
 };
+// наследование
 let NewElem = new DomElement();
+// вызов 
 NewElem.createElement();
-console.log(NewElem)
